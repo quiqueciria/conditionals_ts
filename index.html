@@ -1,15 +1,21 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="stylesheet" href="/src/style.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vite + TS</title>
   </head>
   <body>
     <div id="app">
-      <h1>TypeScript Sandboxh</h1>
-    </div>
-    <script type="module" src="/src/main.ts"></script>
+      <h1>Adivina el número</h1>
+      <div>
+        <input type="number" id="numero" />
+        <button id="comprobar">Comprobar</button>
+      </div>
+      <div id="resultado"></div>
+      <div id="intentos"></div>
+      <script type="module" src="/src/main.ts"></script>
   </body>
 </html>
